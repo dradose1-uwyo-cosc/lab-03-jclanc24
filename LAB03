@@ -30,3 +30,13 @@ print(states)
 
 print(states.pop(2))
 
+#PART THREE
+
+print(states)
+print(sorted(states))
+
+print(states.sort())
+
+print(states.sort(reverse = true))
+
+print(states.reverse())
