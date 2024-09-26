@@ -1,1 +1,32 @@
+# John Clancy  
+# UWYO COSC 1010
+# 9/26/2024
+# Lab 03 
+# Lab Section: 13
+# Sources, people worked with, help given to: 
+
+#PART ONE
+
+states = [Wyoming, Colorado, Montana]
+print(states)
+print(states[0])
+print(states[-1])
+
+print(f"{states[1]} is south of {states[0]}.")
+
+#PART TWO
+
+states.append("Washington", "Oregon", "California")
+print(states)
+
+states[-2] = "Maine"
+print(states)
+
+states.insert(2,"Texas")
+print(states)
+
+del states[3]
+print(states)
+
+print(states.pop(2))
 
